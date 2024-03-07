@@ -16,3 +16,5 @@ Diversos exemplos do que foi mostrado em aula, para facilitar o acesso e visuali
 - Cenas
 - Animações
 - Exemplos
+
+Versão da Unity 2022.3.20f1 LTS, Universal Render Pipeline
