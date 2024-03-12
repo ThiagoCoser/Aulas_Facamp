@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2989292790371854589}
   - component: {fileID: 2496769578665717967}
   m_Layer: 0
-  m_Name: Coin
+  m_Name: Coin (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -219,6 +219,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ScoreObj: {fileID: 0}
   CoinSound: {fileID: 0}
+  FXPrefab: {fileID: 4169682345136489931, guid: e42ba04aab291994c9f28a90139413da,
+    type: 3}
 --- !u!58 &2496769578665717967
 CircleCollider2D:
   m_ObjectHideFlags: 0

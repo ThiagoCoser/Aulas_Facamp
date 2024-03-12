@@ -5,8 +5,10 @@ using UnityEngine;
 public class coinBehaviour : MonoBehaviour
 {
 
+
     public GameObject ScoreObj;
     public GameObject CoinSound;
+    public GameObject FXPrefab;
 
 
     private void Start()
@@ -23,6 +25,7 @@ public class coinBehaviour : MonoBehaviour
 
         if (col.gameObject.name == "Character")
         {
+            Instantiate(FXPrefab, gameObject.transform.position, Quaternion.identity);
 
             ScoreObj.GetComponent<ScoreScript>().ScoreValue++;
             CoinSound.GetComponent<AudioSource>().Play();
