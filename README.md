@@ -2,7 +2,7 @@
 Disciplina 5º Semestre do curso de Design Digital - 2024
 
 
-<img src="Banner.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
+<img src="images/Banner2.jpg" style='height: 100%; width: 100%; object-fit: contain'/>
 
 ### Sobre
 
